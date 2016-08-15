@@ -37,6 +37,7 @@ env:
     - OMV_ENGINE=jNeuroML_PyNN_NEURON
     - OMV_ENGINE=NetPyNE
     - OMV_ENGINE=jNeuroML_Brain2
+    - OMV_ENGINE=pyNeuroML
 install:
     - python setup.py install
 
