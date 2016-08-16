@@ -23,7 +23,7 @@ from pynnbrian1 import PyNNBrian1Engine
 from pynnnest import PyNNNestEngine
 from octave import OctaveEngine
 from netpyne import NetPyNEEngine
-
+from pyneuroml_ import PyNeuroMLEngine
 
 OMVEngines = {be.name: be for be in locals().values()
               if inspect.isclass(be)
